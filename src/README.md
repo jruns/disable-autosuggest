@@ -3,8 +3,14 @@ This is a browser extension to disable autosuggest and autocomplete features on 
 
 ## Search Engine Support
 
+### Bing
+We disable Bing's autocomplete/autosuggest feature by blocking the autocomplete endpoint.
+
 ### DuckDuckGo
-We disable DuckDuckGo's autocomplete/autosuggest feature by adding the `kac=-1` url parameter to all DuckDuckGo search URLs. We also block the DuckDUckGo autocomplete endpoint.
+We disable DuckDuckGo's autocomplete/autosuggest feature by blocking the autocomplete endpoint.
 
 ### Google
-We disable Google's autocomplete/autosuggest feature on Google search pages. We also block the Google search autocomplete endpoint.
+We disable Google's autocomplete/autosuggest feature on Google search pages by blocking the search autocomplete endpoint. We also modify the CSS of the search box to round out the input box without the suggestions.
+
+### Yahoo
+We disable Yahoo's autocomplete/autosuggest feature by blocking the autocomplete endpoint.

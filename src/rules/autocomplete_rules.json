@@ -31,5 +31,16 @@
         "urlFilter": "||google.com/complete/search",
         "resourceTypes": [ "main_frame", "xmlhttprequest" ]
       }
+    },
+    {
+      "id": 4,
+      "priority": 1,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "||search.yahoo.com/sugg",
+        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+      }
     }
 ]
