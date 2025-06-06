@@ -2,7 +2,7 @@
 This is a browser extension to disable autosuggest and autocomplete features on various sites and search engines. You know what you want to search for, so don't get distracted by suggestions. This extension also disables trending topics when they are displayed in search input boxes.
 
 **Search Engines Supported:**  
-Bing, DuckDuckGo, Google, Yahoo
+Bing, Brave Search, DuckDuckGo, Google, Startpage, Yahoo
 
 ## How to Install
 - Firefox and Firefox for Android: link coming soon
@@ -11,16 +11,22 @@ Bing, DuckDuckGo, Google, Yahoo
 ## How it Works
 
 ### Bing
-We disable Bing's autocomplete/autosuggest feature by blocking the autocomplete endpoint.
+We disable the autocomplete/autosuggest feature by blocking the autocomplete endpoint.
+
+### Brave Search
+We disable the autocomplete/autosuggest feature by blocking the autocomplete endpoint.
 
 ### DuckDuckGo
-We disable DuckDuckGo's autocomplete/autosuggest feature by blocking the autocomplete endpoint.
+We disable the autocomplete/autosuggest feature by blocking the autocomplete endpoint.
 
 ### Google
-We disable Google's autocomplete/autosuggest feature on Google search pages by blocking the search autocomplete endpoint. We also modify the CSS of the search box to round out the input box without the suggestions.
+We disable the autocomplete/autosuggest feature on Google search pages by blocking the search autocomplete endpoint. We also modify the CSS of the search box to round out the input box without the suggestions.
+
+### Startpage
+We disable the autocomplete/autosuggest feature by blocking the autocomplete endpoint.
 
 ### Yahoo
-We disable Yahoo's autocomplete/autosuggest feature by blocking the autocomplete endpoint.
+We disable the autocomplete/autosuggest feature by blocking the autocomplete endpoint.
 
 ## Firefox Installation instructions
 1. Download a release xpi file from this github repo
@@ -37,10 +43,6 @@ We disable Yahoo's autocomplete/autosuggest feature by blocking the autocomplete
 5. Select the `src` folder you saved locally
 6. Pin the extension to the Toolbar
 
-## Coming Soon
-1. Support for the Chrome browser.
-2. Add International support
-3. Disable AI results in more search engines.
-4. Ability to run the extension in mobile browsers.
-5. Allow optionally disabling auto-suggest dropdowns to reduce resource utilization.
-6. Make disabling non-AI instant answers optional where possible.
+## Development Env
+Requires web-ext  
+`npm install --global web-ext`
