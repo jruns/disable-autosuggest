@@ -1,0 +1,10 @@
+/* Hide autocomplete box */
+div:has(> div[data-maindata*="AutocompletePrediction"]) {
+    display: none !important;
+}
+
+/* Round borders of search box after removing autocomplete */
+div:has( > div > div > textarea[aria-label="Search"] ) {
+    border-bottom-left-radius: 24px !important;
+    border-bottom-right-radius: 24px !important;
+}
