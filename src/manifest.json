@@ -58,7 +58,7 @@
     "128": "icons/icon_128.png"
   },
   "action": {
-    "default_icon": "icons/icon_32.png",
+    "default_icon": "icons/icon_128.png",
     "default_title": "Disable Autosuggest"
   }
 }
